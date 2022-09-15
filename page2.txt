@@ -1,0 +1,34 @@
+<html>
+<head><style>
+body{background-image: linear-gradient(pink,orange, yellow)}
+input[type=text] {width:80%;padding: 12px 20px;margin: 8px 0;border-color:blue}
+input[type=email] {width: 80%;padding: 12px 20px;margin: 8px 0;border-color:blue}
+textarea{border-color:blue}
+h1{border-style:solid;text-align:center;padding:10px}
+select{width: 1000px;margin: 10px;height:35px;border-color:blue}
+intro{text-align:left;font-family:Elephant;font-size:20px;color:blue;border-style:inset;left:200px;right:800px;border-color:red}    
+</style></head>
+<body>
+<form name="f1">
+<h1>Feedback Form</h1><br>
+<intro>First name :- </intro>&nbsp&nbsp <input type=text placeholder="First Name"><br><br>
+<intro>Last name :- </intro>&nbsp&nbsp&nbsp&nbsp<input type=text placeholder="Last Name"><br><br>
+<intro>E-mail Id :- &nbsp&nbsp</intro>&nbsp&nbsp&nbsp&nbsp<input type=email  placeholder=E-mail Id><br><br>
+<intro>Country :- </intro>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<select>
+<option value="none">Select Country</option>
+<option value=australia>Australia</option>
+<option value=canada>Canada</option>
+<option value=USA>USA</option>
+<option value=russia>Russia</option>
+<option value=japan>Japan</option>
+<option value=india>India</option></select><br><br>
+<intro>Rate your experience :- </intro> &nbsp&nbsp&nbsp&nbsp&nbsp <input type=radio name=rate value=Bad>Bad</radio>&nbsp&nbsp&nbsp&nbsp
+                                        <input type=radio name=rate value=good>Good</radio>&nbsp&nbsp&nbsp&nbsp
+                                       <input type=radio name=rate value=excellent>Excellent</radio>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspOR&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp1<input type=range>10</range><br><br>
+<intro>Your Feedback :- </intro><textarea cols="150" rows="5" placeholder="Write something.."></textarea><br><br>
+<center><input type=image width="11%" height="8%" src="sub.png" alt"Click here to submit">
+<h3><a href="Index.html">Back to homepage</a></h3></center>
+</form>
+</body>
+</html>

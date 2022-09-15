@@ -1,0 +1,21 @@
+<html>
+<head><style>
+body{background-image:url("n.jpg");background-size: 1500px 750px}
+h1{color:#00827f;font-weight:25;word-spacing:10;text-align:center;font-family:Elephant;fontsize:100px;padding:10px;border-style:dashed;border-color:red;text-decoration:underline}
+h3{border-color:brown;color:darkblue;text-align:center;background-color:cyan}
+li{font-size:20px}
+.right1 {color:green;font-size:30px;position:absolute;right:170px;bottom:100px}
+.right {color:green;position:absolute;right:50px;bottom:10px;width: 300px;border: 3px solid green;padding: 10px}
+</style></head>
+<body>
+<h1>Modern college of arts, science and commerce, shivajinagar, pune - 05</h1>
+<h3><a href="Index.html">Home</a> | About | Acadamics | IQAC | Reasearch | Student | Sports | <a href="admin.html">Admissions</a>|<a href="page2.html"> feedback</a> | <a href="enq.html">Contact us</a></h3>
+<img align="left" style="vertical-align:middle"  width="900" height="45"src="1.png">
+<img align="left" style="vertical-align:middle" width="900" height="400"src="2.png">
+<img align="right" style="vertical-align:top" height="280" width="400" src="b.png" alt="Modern college" >
+<h2 class="right1">Our Branches :-</h2>
+<ul class="right">
+<li><b>Shivajinagar</b></li>
+<li><b>Ganeshkhind</b></li>
+<li><b>Warje</b></li>
+</ul></body></html>

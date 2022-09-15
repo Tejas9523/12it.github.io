@@ -1,0 +1,29 @@
+<html>
+<head><title> Admissioin Form</title></head>
+<body background="s.jpg"><h1 align="center"><u>Admissioin Form</u></h1>
+<form><b><h2><i>
+#Name:-  <input type="text" required ><br><br>
+#E-mail:-  <input type="email" name="email" multiple> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+#Now datetime :- <input type="datetime-local">&nbsp&nbsp&nbsp
+STD : <select name=std>
+<option value=11th>11<sup>th</sup></option>
+<option value=12th>12<sup>th</sup></option>
+<option value=SYJC>SYJC</option>
+<option value=SYJC>SYJC</sup></option></select><br><br>
+#Date of birth:-  <input type="date" name="DOB"> &nbsp&nbsp&nbsp
+#Time of birth:-  <input type="time" name="time"> &nbsp&nbsp&nbsp&nbsp&nbsp
+#Age:-  <input type="number" min="10" max="30"> &nbsp&nbsp&nbsp&nbsp&nbsp 
+#Birthday week :- <input type="week"><br><br>
+# Gender:-   <input type="radio" name=gender value="Male">Male <input type="radio" name=gender value="Female"> Female &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+# Your hobby :- <input type="checkbox" name="hobby">swimming <input type="checkbox" name="hobby" value="reading">reading 
+<input type="checkbox" name="hobby" value="cycling">cycling<input type="checkbox" name="hobby" value="cricket">cricket<br><br>
+#Choose your favourite color :- <input type="color">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+#Joining month :- <input type="month"><br><br>
+#Phone no. :-  <input type="tel" name="phone" pattern="[0-9]{10}">&nbsp&nbsp&nbsp
+#Add your homepage:-   <input type="url" name="homepage" placeholder="www.abc.com"disabled><br><br>
+#Upload your photo:-  <input type="file" ><br><br>
+<center><input type="image"  height="120" width="120"src="t.png"  alt="clik here to submit"></i></h2></b>
+<center><h3><a href="Index.html">Back to homepage</a></h3><center>
+</form>
+</body>
+</html>
